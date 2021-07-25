@@ -364,7 +364,7 @@ img {
 
 .home_icon {
   font-size: 1.2rem;
-  margin-right: .25rem;
+  margin-right: .75rem;
 }
 
 .home_button-movil {
@@ -485,24 +485,6 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/*========== REFERENCES ==========*/
-.references_content {
-  gap: .25rem;
-}
-
-.references_subtitle {
-  color: var(--text-color-light);
-}
-
-.references_subtitle,
-.references_contact {
-  font-size: var(--smaller-font-size);
-}
-
-.references_title {
-  font-size: var(--h3-font-size);
-}
-
 /*========== INTERESTS ==========*/
 .interests_container {
   grid-template-columns: repeat(3, 1fr);
@@ -560,7 +542,7 @@ img {
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
   body {
-    margin: 3rem 0;
+    margin: 4rem 0;
   }
 
   .bd-container {
@@ -575,7 +557,7 @@ img {
 
   .resume {
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .7fr 1fr;
     background-color: var(--container-color);
     box-shadow: 0 0 8px rgba(13,12,12,.15);
   }
@@ -586,7 +568,7 @@ img {
 
   .resume__left,
   .resume__right {
-    padding: 0 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   .generate-pdf {
@@ -604,15 +586,6 @@ img {
 
   .home_button-movil {
     display: none;
-  }
-
-  .references_container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .languages_content {
-    grid-template-columns: repeat(3, max-content);
-    column-gap: 3.5rem;
   }
 
   .interests_container {
